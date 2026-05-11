@@ -52,6 +52,7 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 ![Clang](https://img.shields.io/badge/Clang-262D3A?style=for-the-badge&logo=clang&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Git LFS](https://img.shields.io/badge/Git_LFS-F64935?style=for-the-badge&logo=gitlfs&logoColor=white)
+![Perfetto](https://img.shields.io/badge/Perfetto-000000?style=for-the-badge&logo=linux&logoColor=white)
 </div> 
 <h4>$\color[RGB]{0,125,0}{\textbf{\textrm{Enviroments:}}}$</h4>
 <div align="center">
