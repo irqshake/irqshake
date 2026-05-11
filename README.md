@@ -1,5 +1,5 @@
 
-<img src="github-header-banner.img" alt="header" />
+<img src="github-header-banner.png" alt="header" />
 <div align="center">
 <h3>$\color[RGB]{0,125,0}{\textbf{\textrm{💫 Greetings, I'm Anurag}}}$</h3>
  </div> 
