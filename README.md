@@ -2,6 +2,8 @@
 # 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
+<img src="line.svg" alt="line" />
+
 # 📊 GitHub Stats:
 <div align="center">
   <br/><img src="https://github-readme-stats.shion.dev/api?username=irqshake&theme=shadow_green&hide_border=false&include_all_commits=false&count_private=true" />
