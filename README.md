@@ -31,7 +31,8 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 
 <img src="line.svg" alt="line" width="10000px" />
 
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:irqshake@proton.me)
+[![email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:irqshake@proton.me)
+[![email](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/irqshake)
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
   <h3>💻 $\color[RGB]{0,125,0}{\textbf{\textrm{Tech Stack}}}$</h3>
