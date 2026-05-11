@@ -1,14 +1,15 @@
-# 💫 Hi 👋, I'm Anurag
-**A passionate Linux Developer || AOSP Enthusiast from India**
+<h2>📊 $\color[RGB]{0,125,0}{\textbf{\textrm{💫 Hi 👋, I'm Anurag}}}$</h2>
 
-- 🔭 **I’m currently working on:** Android Linux Kernel and Performance Optimisation
-- 🌱 **I’m currently learning:** Scheduler Algorithm Principles
-- 👯 **I’m looking to collaborate on:** Post Linking Optimisations
-- 🤔 **I’m looking for help with:** Post Linking Optimisations without EmbeddedTraceMacrocell {Instrumented}
-- 💬 **Ask me about:** Linux Kernel {Specially memory and scheduler}
-- 📫 **How to reach me:** Telegram and Email
-- 😄 **Pronouns:** He, Him, irqshake
-- ⚡ **Fun fact:** I love performance and power efficiency
+$\color[RGB]{0,125,0}{\textbf{\textrm{A passionate Linux Developer || AOSP Enthusiast from India}}}$
+
+$\color[RGB]{0,125,0}{\textbf{\textrm{- 🔭 I’m currently working on: Android Linux Kernel and Performance Optimisation}}}$
+$\color[RGB]{0,125,0}{\textbf{\textrm{- 🌱 I’m currently learning: Scheduler Algorithm Principles}}}$
+$\color[RGB]{0,125,0}{\textbf{\textrm{- 👯 I’m looking to collaborate on: Post Linking Optimisations}}}$
+$\color[RGB]{0,125,0}{\textbf{\textrm{- 🤔 I’m looking for help with: Post Linking Optimisations without EmbeddedTraceMacrocell [Instrumented]}}}$
+$\color[RGB]{0,125,0}{\textbf{\textrm{- 💬 Ask me about: Linux Kernel {Specially memory and scheduler}}}}$
+$\color[RGB]{0,125,0}{\textbf{\textrm{- 📫 How to reach me: Telegram and Email}}}$
+$\color[RGB]{0,125,0}{\textbf{\textrm{- 😄 Pronouns: He, Him, irqshake}}}$
+$\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and power efficiency}}}$
 
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
