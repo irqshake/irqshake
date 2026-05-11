@@ -87,5 +87,8 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
   
 </div>
 <img src="line.svg" alt="line" width="10000px" />
+<div align="center">
+<h3>$\color[RGB]{0,125,0}{\textbf{\textrm{Two wrongs don't make a right, but three lefts do — and sometimes two bugs make a feature.}}}$</h3>
+</div>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
