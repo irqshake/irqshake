@@ -1,6 +1,7 @@
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
-  <h3>💻 Tech Stack</h3>
+  <h3>💻 $\color[RGB]{0,125,0}{\textbf{\textrm{Tech Stack}}}$</h3>
+
 </div>
 <img src="line.svg" alt="line" width="10000px" />
 
@@ -9,7 +10,7 @@
 <img src="line.svg" alt="line" width="10000px" />
 
 <div align="center">
-  <h3>📊 GitHub Stats</h3>
+  <h3>📊 $\color[RGB]{0,125,0}{\textbf{\textrm{GitHub Stats}}}$</h3>
 </div>
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
@@ -22,7 +23,7 @@
 <img src="line.svg" alt="line" width="10000px" />
 
 <div align="center">
-  <h3>🏆 GitHub Trophies</h3>
+  <h3>🏆 $\color[RGB]{0,125,0}{\textbf{\textrm{GitHub Trophies}}}$</h3>
 </div>
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
