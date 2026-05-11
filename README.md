@@ -1,4 +1,5 @@
 <h3>📊 $\color[RGB]{0,125,0}{\textbf{\textrm{💫 Hi 👋, I'm Anurag}}}$</h3>
+<img src="line.svg" alt="line" width="10000px" />
 
 $\color[RGB]{0,125,0}{\textbf{\textrm{A passionate Linux Developer || AOSP Enthusiast from India}}}$
 
