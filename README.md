@@ -72,6 +72,15 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 </div>
 <br/>
 <img src="line.svg" alt="line" width="10000px" />
+<div align="center">
+  <h3>🏆 $\color[RGB]{0,125,0}{\textbf{\textrm{GitHub Activity}}}$</h3>
+</div>
+<img src="line.svg" alt="line" width="10000px" />
+<div align="center">
+  
+  ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=irqshake&theme=react-dark&color=007d00&line=007d00&point=007d00&area=true&hide_border=true)
+  
+</div>
 
 [![](https://komarev.com/ghpvc/?username=irqshake&icon=0&color=007d00)](https://visitcount.itsvg.in)
 
