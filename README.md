@@ -25,6 +25,15 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
+  <h3>$\color[RGB]{0,125,0}{\textbf{\textrm{🌐 Socials}}}$</h3>
+
+</div>
+
+<img src="line.svg" alt="line" width="10000px" />
+
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:irqshake@proton.me)
+<img src="line.svg" alt="line" width="10000px" />
+<div align="center">
   <h3>💻 $\color[RGB]{0,125,0}{\textbf{\textrm{Tech Stack}}}$</h3>
 
 </div>
@@ -39,11 +48,11 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 </div>
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
-  <br/><img src="https://github-readme-stats.shion.dev/api?username=irqshake&theme=shadow_green&hide_border=false&include_all_commits=false&count_private=true" />
+  <br/><img src="https://github-readme-stats.shion.dev/api?username=irqshake&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=true" />
   <br/><br/>
   <img src="https://streak-stats.demolab.com/?user=irqshake&theme=shadow_green&hide_border=false" />
   <br/><br/>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=irqshake&theme=shadow_green&hide_border=false&include_all_commits=false&count_private=true&layout=compact" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=irqshake&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
 </div>
 <img src="line.svg" alt="line" width="10000px" />
 
@@ -63,6 +72,6 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 <br/>
 <img src="line.svg" alt="line" width="10000px" />
 
-[![](https://komarev.com/ghpvc/?username=irqshake&icon=0&color=0)](https://visitcount.itsvg.in)
+[![](https://komarev.com/ghpvc/?username=irqshake&icon=0&color=007d00)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
