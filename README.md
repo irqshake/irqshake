@@ -1,3 +1,15 @@
+# 💫 Hi 👋, I'm Anurag
+**A passionate Linux Developer || AOSP Enthusiast from India**
+
+- 🔭 **I’m currently working on:** Android Linux Kernel and Performance Optimisation
+- 🌱 **I’m currently learning:** Scheduler Algorithm Principles
+- 👯 **I’m looking to collaborate on:** Post Linking Optimisations
+- 🤔 **I’m looking for help with:** Post Linking Optimisations without EmbeddedTraceMacrocell {Instrumented}
+- 💬 **Ask me about:** Linux Kernel {Specially memory and scheduler}
+- 📫 **How to reach me:** Telegram and Email
+- 😄 **Pronouns:** He, Him, irqshake
+- ⚡ **Fun fact:** I love performance and power efficiency
+
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
   <h3>💻 $\color[RGB]{0,125,0}{\textbf{\textrm{Tech Stack}}}$</h3>
