@@ -15,7 +15,7 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- 🌱 I’m currently learning: Scheduler
 
 $\color[RGB]{0,125,0}{\textbf{\textrm{- 👯 I’m looking to collaborate on: Post Linking Optimisations}}}$
 
-$\color[RGB]{0,125,0}{\textbf{\textrm{- 🤔 I’m looking for help with: Post Linking Optimisations without EmbeddedTraceMacrocell [Instrumented]}}}$
+$\color[RGB]{0,125,0}{\textbf{\textrm{- 🤔 I’m looking for help with: Post Linking Optimisations without ETM}}}$
 
 $\color[RGB]{0,125,0}{\textbf{\textrm{- 💬 Ask me about: Linux Kernel [Specially memory and scheduler] }}}$
 
