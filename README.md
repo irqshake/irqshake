@@ -27,11 +27,8 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
-  <h3>$\color[RGB]{0,125,0}{\textbf{\textrm{🌐 Socials}}}$</h3>
-
+  <h3>$\color[RGB]{0,125,0}{\textbf{\textrm{🌐 Socials}}}$</h3><br>
 </div>
-
-<img src="line.svg" alt="line" width="10000px" />
 <div align="center">
  
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:irqshake@proton.me)
@@ -39,10 +36,9 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
  </div> 
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
-  <h3>💻 $\color[RGB]{0,125,0}{\textbf{\textrm{Tech Stack}}}$</h3>
+  <h3>$\color[RGB]{0,125,0}{\textbf{\textrm{💻 Tech Stack}}}$</h3>
 
 </div>
-<img src="line.svg" alt="line" width="10000px" />
 <h4>$\color[RGB]{0,125,0}{\textbf{\textrm{Languages:}}}$</h4>
 <div align="center">
  
@@ -59,7 +55,6 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 <div align="center">
   <h3>📊 $\color[RGB]{0,125,0}{\textbf{\textrm{GitHub Stats}}}$</h3>
 </div>
-<img src="line.svg" alt="line" width="10000px" />
 <div align="center">
   <br/>
  
@@ -75,8 +70,7 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 
 <div align="center">
   <h3>🏆 $\color[RGB]{0,125,0}{\textbf{\textrm{GitHub Trophies}}}$</h3>
-</div>
-<img src="line.svg" alt="line" width="10000px" />
+</div><br>
 <div align="center">
 
  ![GitHub Activity Graph](https://github-profile-trophy.vercel.app/?username=irqshake&theme=radical&no-frame=false&no-bg=false&margin-w=4)
@@ -92,7 +86,6 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 <div align="center">
   <h3>📈 $\color[RGB]{0,125,0}{\textbf{\textrm{GitHub Activity}}}$</h3>
 </div>
-<img src="line.svg" alt="line" width="10000px" />
 <div align="center">
   
   ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=irqshake&theme=react-dark&color=007d00&line=007d00&point=007d00&area=true&hide_border=true)
