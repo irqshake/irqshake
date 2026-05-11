@@ -15,7 +15,7 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- 👯 I’m looking to collaborate on: Po
 
 $\color[RGB]{0,125,0}{\textbf{\textrm{- 🤔 I’m looking for help with: Post Linking Optimisations without EmbeddedTraceMacrocell [Instrumented]}}}$
 
-$\color[RGB]{0,125,0}{\textbf{\textrm{- 💬 Ask me about: Linux Kernel {Specially memory and scheduler} }}}$
+$\color[RGB]{0,125,0}{\textbf{\textrm{- 💬 Ask me about: Linux Kernel [Specially memory and scheduler] }}}$
 
 $\color[RGB]{0,125,0}{\textbf{\textrm{- 📫 How to reach me: Telegram and Email}}}$
 
