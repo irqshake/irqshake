@@ -49,11 +49,15 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 </div>
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
-  <br/><img src="https://github-readme-stats.shion.dev/api?username=irqshake&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=true" />
-  <br/><br/>
-  <img src="https://streak-stats.demolab.com/?user=irqshake&theme=shadow_green&hide_border=false" />
-  <br/><br/>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=irqshake&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+  <br/>
+ 
+ ![GitHub Stats](https://github-readme-stats.shion.dev/api?username=irqshake&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=true)
+  <br/>
+
+   ![GitHub Stats](https://streak-stats.demolab.com/?user=irqshake&theme=shadow_green&hide_border=false)
+  <br/>
+
+  ![GitHub Stats](https://github-readme-stats.shion.dev/api/top-langs/?username=irqshake&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 </div>
 <img src="line.svg" alt="line" width="10000px" />
 
@@ -62,7 +66,8 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 </div>
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=irqshake&theme=radical&no-frame=false&no-bg=false&margin-w=4" />
+
+ ![GitHub Activity Graph](https://github-profile-trophy.vercel.app/?username=irqshake&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 </div>
 
 <img src="line.svg" alt="line" width="10000px" />
