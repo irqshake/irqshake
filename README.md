@@ -30,9 +30,11 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 </div>
 
 <img src="line.svg" alt="line" width="10000px" />
-
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:irqshake@proton.me)
-[![email](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/irqshake)
+<div align="center">
+ 
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:irqshake@proton.me)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/irqshake)
+ </div> 
 <img src="line.svg" alt="line" width="10000px" />
 <div align="center">
   <h3>💻 $\color[RGB]{0,125,0}{\textbf{\textrm{Tech Stack}}}$</h3>
@@ -40,12 +42,16 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 </div>
 <img src="line.svg" alt="line" width="10000px" />
 <h4>$\color[RGB]{0,125,0}{\textbf{\textrm{Languages:}}}$</h4>
-
+<div align="center">
+ 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white) ![GNU Make](https://img.shields.io/badge/GNU_Make-A42E2B?style=for-the-badge&logo=gnu&logoColor=white) ![GNU Bash](https://img.shields.io/badge/GNU_Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
+</div> 
 <h4>$\color[RGB]{0,125,0}{\textbf{\textrm{Enviroments:}}}$</h4>
-
+<div align="center">
+ 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Manjaro](https://img.shields.io/badge/Manjaro-35BFA4?style=for-the-badge&logo=manjaro&logoColor=white) ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Linux Server](https://img.shields.io/badge/Linux_Server-DA3B8A?style=for-the-badge&logo=linuxserver&logoColor=white) ![Linux Container](https://img.shields.io/badge/Linux_Container-333333?style=for-the-badge&logo=linuxcontainers&logoColor=white) ![Kali](https://img.shields.io/badge/Kali-1793D1?style=for-the-badge&logo=kali-linux&logoColor=white) ![CachyOS](https://img.shields.io/badge/CachyOS-4BC0A5?style=for-the-badge&logo=linux&logoColor=white) ![Initramfs](https://img.shields.io/badge/Initramfs-Linux%20Boot-000000?style=for-the-badge&logo=linux&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) 
+</div> 
+
 <img src="line.svg" alt="line" width="10000px" /> 
 
 <div align="center">
