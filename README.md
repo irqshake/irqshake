@@ -64,6 +64,5 @@ $\color[RGB]{0,125,0}{\textbf{\textrm{- ⚡ Fun fact: I love performance and pow
 <img src="line.svg" alt="line" width="10000px" />
 
 [![](https://komarev.com/ghpvc/?username=irqshake&icon=0&color=0)](https://visitcount.itsvg.in)
-<img src="line.svg" alt="line" width="10000px" />
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
