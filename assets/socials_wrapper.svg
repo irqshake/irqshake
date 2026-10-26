@@ -18,28 +18,16 @@
   <g class="badges">
     <!-- 6 badges, scaled down and evenly spaced -->
     
-    <a href="https://github.com/RyuOOB">
-      <image href="./github.svg" x="10" y="440" width="135" height="36" />
-    </a>
-    
-    <a href="https://linkedin.com/in/ryuoob">
-      <image href="./linkedin.svg" x="155" y="440" width="135" height="36" />
-    </a>
-    
-    <a href="https://x.com/RyuOOB">
-      <image href="./x.svg" x="300" y="440" width="135" height="36" />
-    </a>
-    
     <a href="https://discord.com/users/YOUR_DISCORD_ID">
-      <image href="./discord.svg" x="445" y="440" width="135" height="36" />
+      <image href="assets/discord.svg" x="445" y="440" width="135" height="36" />
     </a>
     
     <a href="https://t.me/RyuOOB">
-      <image href="./telegram.svg" x="590" y="440" width="135" height="36" />
+      <image href="assets/telegram.svg" x="590" y="440" width="135" height="36" />
     </a>
     
     <a href="mailto:your@email.com">
-      <image href="./email.svg" x="735" y="440" width="135" height="36" />
+      <image href="assets/email.svg" x="735" y="440" width="135" height="36" />
     </a>
   </g>
 </svg>
