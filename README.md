@@ -1,5 +1,6 @@
 <p align="center">
 <img src="./assets/h1.svg" width="100%" align="top" alt="Header">
+ <a href="https://discord.com/users/YOUR_ID"><img src="./assets/discord.svg" width="15%" alt="Discord"></a>
 <img src="./assets/links.svg" width="100%" align="top" alt="Links">
 <img src="github-header-banner.png" alt="header" />
 <div align="center">
