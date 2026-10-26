@@ -35,7 +35,7 @@ text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 <!-- Header -->
 <rect x="16" y="16" width="848" height="34" fill="#35e8ff" fill-opacity=".06"/>
 <line x1="16" y1="50" x2="864" y2="50" stroke="#35e8ff" stroke-opacity=".38"/>
-<text x="32" y="38" class="sys">◈ TECH://LANGUAGES // CORE</text>
+<text x="32" y="38" class="sys">print "Languages" $</text>
 <text x="844" y="38" class="dim" text-anchor="end">SYSTEMS NOMINAL</text>
 <circle cx="648" cy="34" r="3.5" fill="#35e8ff"/>
 <circle cx="648" cy="34" r="3.5" fill="#35e8ff" filter="url(#glow)"/>
