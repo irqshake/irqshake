@@ -1,3 +1,16 @@
+<div align="center">
+  <!-- The Terminal Animation -->
+  <img src="./assets/h1.svg" width="100%" alt="Terminal Header">
+
+  <br><br>
+
+  <!-- The Clickable Social Badges -->
+  <a href="https://github.com/RyuOOB"><img src="./assets/github.svg" width="15%" alt="GitHub"></a>
+  <a href="https://x.com/RyuOOB"><img src="./assets/x.svg" width="15%" alt="X"></a>
+  <a href="https://linkedin.com/in/ryuoob"><img src="./assets/linkedin.svg" width="15%" alt="LinkedIn"></a>
+  <a href="https://t.me/RyuOOB"><img src="./assets/telegram.svg" width="15%" alt="Telegram"></a>
+  <a href="mailto:your@email.com"><img src="./assets/email.svg" width="15%" alt="Email"></a>
+</div>
 <p align="center">
 <img src="./assets/h1.svg" width="100%" align="top" alt="Header">
  <a href="https://discord.com/users/YOUR_ID"><img src="./assets/discord.svg" width="15%" alt="Discord"></a>
