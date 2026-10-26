@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" role="img" aria-labelledby="t d">
 <title id="t">Anurag Singh Thakur — Neon Node</title>
-<desc id="d">Anurag Singh Thakur. A student interested in Linux kernel optimisations and patches. Every silence has a checksum.</desc>
+<desc id="d">Anurag Singh Thakur. A student interested in Linux kernel optimisations and patches. Every silence has a checksum. Socials printed via shell.</desc>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px}
 .pale{fill:#eaf6ff}.fg{fill:#c9d6ef}.dim{fill:#7683a8}.cy{fill:#35e8ff}.mg{fill:#ff3df0}.vi{fill:#a58bff}
@@ -12,8 +12,42 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 @keyframes spin{to{transform:rotate(360deg)}}
 @keyframes spinRev{to{transform:rotate(-360deg)}}
 @keyframes float{0%{transform:translateY(0);opacity:0}18%{opacity:.9}100%{transform:translateY(-110px);opacity:0}}
-@keyframes eq{0%,100%{transform:scaleY(.25)}50%{transform:scaleY(1)}}
 @keyframes flicker{0%{opacity:0}12%{opacity:1}16%{opacity:.25}24%{opacity:1}32%{opacity:.5}42%,100%{opacity:1}}
+
+/* Typewriter Animations */
+@keyframes type-reveal {
+  from { width: 0; }
+  to { width: 165px; }
+}
+@keyframes type-cursor {
+  from { transform: translateX(0); }
+  to { transform: translateX(165px); }
+}
+@keyframes fade-out {
+  to { opacity: 0; }
+}
+.typing-reveal {
+  animation: type-reveal 1.2s steps(17) forwards;
+}
+.typing-cursor {
+  animation: type-cursor 1.2s steps(17) forwards, blink 1.05s step-end infinite, fade-out 0.3s 1.5s forwards;
+}
+
+/* Echo Typewriter Animations */
+@keyframes type-reveal-echo {
+  from { width: 0; }
+  to { width: 165px; }
+}
+@keyframes type-cursor-echo {
+  from { transform: translateX(0); }
+  to { transform: translateX(165px); }
+}
+.typing-reveal-echo {
+  animation: type-reveal-echo 1.2s steps(18) 2.8s forwards;
+}
+.typing-cursor-echo {
+  animation: type-cursor-echo 1.2s steps(18) 2.8s forwards, blink 1.05s step-end 2.8s infinite, fade-out 0.3s 4.0s forwards;
+}
 
 /* FAST glitch — two bursts per 1.6s cycle (~0.8s apart) */
 @keyframes glitchCyan{
@@ -77,15 +111,13 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 }
 
 .ln{animation:fadein .45s ease-out both}
-.cursor{animation:blink 1.05s step-end infinite}
 .dot{animation:pulse 2.4s ease-in-out infinite}
 .core{animation:corePulse 3.2s ease-in-out infinite}
 .spinA{transform-box:view-box;transform-origin:716px 175px;animation:spin 46s linear infinite}
 .spinB{transform-box:view-box;transform-origin:716px 175px;animation:spinRev 29s linear infinite}
-.name{animation:flicker 1.1s linear .5s both, nameJitter 1.6s linear infinite}
+.name{animation:flicker 1.1s linear 1.4s both, nameJitter 1.6s linear infinite}
 .bglow{animation:nameGlow 1.6s linear infinite}
 .p{animation:float 9s linear infinite}
-.bar{transform-box:fill-box;transform-origin:50% 100%;animation:eq 1.5s ease-in-out infinite}
 .gcyan{animation:glitchCyan 1.6s linear infinite}
 .gmag{animation:glitchMagenta 1.6s linear infinite}
 .gsliceA{animation:sliceA 1.6s linear infinite}
@@ -108,10 +140,19 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 <circle cx="22" cy="22" r="1" fill="#35e8ff" fill-opacity=".25"/>
 </pattern>
 <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" fill-opacity=".20"/></pattern>
-<clipPath id="card"><rect x="16" y="16" width="848" height="328"/></clipPath>
+<clipPath id="card"><rect x="16" y="16" width="848" height="388"/></clipPath>
 <clipPath id="gsA"><rect x="40" y="130" width="620" height="10"/></clipPath>
 <clipPath id="gsB"><rect x="40" y="140" width="620" height="7"/></clipPath>
 <clipPath id="gsC"><rect x="40" y="147" width="620" height="11"/></clipPath>
+
+<!-- Typewriter Clips -->
+<clipPath id="typeclip">
+  <rect class="typing-reveal" x="52" y="80" width="0" height="24"/>
+</clipPath>
+<clipPath id="typeclip-echo">
+  <rect class="typing-reveal-echo" x="52" y="268" width="0" height="24"/>
+</clipPath>
+
 <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
 <filter id="tglow" x="-8%" y="-45%" width="116%" height="190%"><feGaussianBlur stdDeviation="9"/></filter>
 <filter id="nameSharp" x="-6%" y="-30%" width="112%" height="160%"><feGaussianBlur stdDeviation="2.5"/></filter>
@@ -132,18 +173,18 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 </g>
 </defs>
 
-<rect x="16" y="16" width="848" height="328" fill="url(#bg)"/>
-<rect x="16" y="16" width="848" height="328" fill="url(#lattice)"/>
+<rect x="16" y="16" width="848" height="388" fill="url(#bg)"/>
+<rect x="16" y="16" width="848" height="388" fill="url(#lattice)"/>
 
 <g clip-path="url(#card)">
-<circle class="p" style="animation-delay:-1s;animation-duration:10s" cx="120" cy="290" r="1.8" fill="#35e8ff"/>
-<circle class="p" style="animation-delay:-3.4s" cx="248" cy="310" r="1.4" fill="#a58bff"/>
-<circle class="p" style="animation-delay:-5.8s;animation-duration:12s" cx="382" cy="296" r="2" fill="#35e8ff"/>
-<circle class="p" style="animation-delay:-2.2s" cx="470" cy="318" r="1.3" fill="#ff3df0"/>
-<circle class="p" style="animation-delay:-7.1s;animation-duration:11s" cx="566" cy="300" r="1.7" fill="#a58bff"/>
-<circle class="p" style="animation-delay:-4.6s" cx="806" cy="308" r="1.5" fill="#35e8ff"/>
-<circle class="p" style="animation-delay:-6.3s;animation-duration:13s" cx="690" cy="292" r="1.9" fill="#ff3df0"/>
-<circle class="p" style="animation-delay:-0.5s" cx="60" cy="318" r="1.4" fill="#a58bff"/>
+<circle class="p" style="animation-delay:-1s;animation-duration:10s" cx="120" cy="366" r="1.8" fill="#35e8ff"/>
+<circle class="p" style="animation-delay:-3.4s" cx="248" cy="386" r="1.4" fill="#a58bff"/>
+<circle class="p" style="animation-delay:-5.8s;animation-duration:12s" cx="382" cy="372" r="2" fill="#35e8ff"/>
+<circle class="p" style="animation-delay:-2.2s" cx="470" cy="394" r="1.3" fill="#ff3df0"/>
+<circle class="p" style="animation-delay:-7.1s;animation-duration:11s" cx="566" cy="376" r="1.7" fill="#a58bff"/>
+<circle class="p" style="animation-delay:-4.6s" cx="806" cy="384" r="1.5" fill="#35e8ff"/>
+<circle class="p" style="animation-delay:-6.3s;animation-duration:13s" cx="690" cy="368" r="1.9" fill="#ff3df0"/>
+<circle class="p" style="animation-delay:-0.5s" cx="60" cy="394" r="1.4" fill="#a58bff"/>
 </g>
 
 <rect x="16" y="16" width="848" height="34" fill="#35e8ff" fill-opacity=".06"/>
@@ -167,9 +208,15 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 <use href="#ringA" x="716" y="175" class="spinA"/>
 <use href="#ringB" x="716" y="175" class="spinB"/>
 
-<g class="ln" style="animation-delay:.2s"><text x="52" y="96" class="dim"><tspan class="cy">$</tspan> whoami <tspan class="vi">--RyuOOB</tspan></text></g>
+<!-- Typing Command 1 -->
+<g>
+  <g clip-path="url(#typeclip)">
+    <text x="52" y="96" class="dim"><tspan class="cy">$</tspan> whoami <tspan class="vi">--RyuOOB</tspan></text>
+  </g>
+  <rect class="typing-cursor" x="52" y="82" width="8" height="15" fill="#35e8ff"/>
+</g>
 
-<!-- NAME — fast glitch stack: backlight (flare) + RGB ghosts + 3 slice tears + crisp front, whole group jitters -->
+<!-- NAME -->
 <g class="name" font-size="42" font-weight="800" letter-spacing="2">
   <text class="bglow" x="52" y="158" fill="#35e8ff" opacity=".35" filter="url(#nameSharp)">ANURAG SINGH THAKUR</text>
   <g class="gcyan"><text x="52" y="158" fill="#35e8ff">ANURAG SINGH THAKUR</text></g>
@@ -180,40 +227,41 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
   <text x="52" y="158" fill="url(#nameGrad)">ANURAG SINGH THAKUR</text>
 </g>
 
-<g class="ln" style="animation-delay:1.05s"><text class="fg" x="52" y="202"><tspan class="mg">»</tspan> A Student</text></g>
-<g class="ln" style="animation-delay:1.25s"><text class="fg" x="52" y="226"><tspan class="mg">»</tspan> Interested in Linux Kernel Optimisations and Patches</text></g>
-<g class="ln" style="animation-delay:1.45s"><text class="fg" x="52" y="250"><tspan class="mg">»</tspan> Every Silence has <tspan class="cy" font-weight="700">a Checksum.</tspan></text></g>
+<!-- Details -->
+<g class="ln" style="animation-delay:1.8s"><text class="fg" x="52" y="202"><tspan class="mg">»</tspan> A Student</text></g>
+<g class="ln" style="animation-delay:2.0s"><text class="fg" x="52" y="226"><tspan class="mg">»</tspan> Interested in Linux Kernel Optimisations and Patches</text></g>
+<g class="ln" style="animation-delay:2.2s"><text class="fg" x="52" y="250"><tspan class="mg">»</tspan> Every Silence has <tspan class="cy" font-weight="700">a Checksum.</tspan></text></g>
 
-<g class="ln" style="animation-delay:2.0s">
-<text x="52" y="284" class="cy">$</text>
-<rect class="cursor" x="70" y="271" width="9" height="16" fill="#35e8ff"/>
-<rect class="cursor" x="70" y="271" width="9" height="16" fill="#35e8ff" filter="url(#sglow)"/>
+<!-- Typing Command 2 -->
+<g>
+  <g clip-path="url(#typeclip-echo)">
+    <text x="52" y="284" class="dim"><tspan class="cy">$</tspan> echo <tspan class="vi">$my_socials</tspan></text>
+  </g>
+  <rect class="typing-cursor-echo" x="52" y="270" width="8" height="15" fill="#35e8ff"/>
 </g>
 
-<line x1="16" y1="300" x2="864" y2="300" stroke="#35e8ff" stroke-opacity=".22"/>
-<text x="52" y="328" class="dim" style="font-size:11px" letter-spacing="1">MEM 0x7F3A   ·   LAT 00ms   ·   LINK <tspan class="cy">∞</tspan></text>
-<g fill="#35e8ff" fill-opacity=".75">
-<rect class="bar" style="animation-delay:0s"    x="724" y="318" width="4" height="18"/>
-<rect class="bar" style="animation-delay:-.15s" x="733" y="312" width="4" height="24"/>
-<rect class="bar" style="animation-delay:-.3s"  x="742" y="316" width="4" height="20"/>
-<rect class="bar" style="animation-delay:-.45s" x="751" y="308" width="4" height="28"/>
-<rect class="bar" style="animation-delay:-.6s"  x="760" y="314" width="4" height="22"/>
-<rect class="bar" style="animation-delay:-.75s" x="769" y="306" width="4" height="30"/>
-<rect class="bar" style="animation-delay:-.9s"  x="778" y="316" width="4" height="20"/>
-<rect class="bar" style="animation-delay:-1.05s" x="787" y="310" width="4" height="26"/>
-<rect class="bar" style="animation-delay:-1.2s" x="796" y="318" width="4" height="18"/>
-<rect class="bar" style="animation-delay:-1.35s" x="805" y="312" width="4" height="24"/>
-<rect class="bar" style="animation-delay:-1.5s" x="814" y="308" width="4" height="28"/>
-<rect class="bar" style="animation-delay:-1.65s" x="823" y="316" width="4" height="20"/>
-<rect class="bar" style="animation-delay:-1.8s" x="832" y="310" width="4" height="26"/>
-<rect class="bar" style="animation-delay:-1.95s" x="841" y="318" width="4" height="18"/>
+<!-- Socials Output -->
+<g class="ln" style="animation-delay:4.4s">
+  <text x="52" y="314" class="fg">
+    <tspan class="mg">»</tspan> <tspan class="cy">github</tspan> <tspan class="dim">: RyuOOB</tspan>
+    <tspan class="mg" dx="10">»</tspan> <tspan class="cy">x</tspan> <tspan class="dim">: RyuOOB</tspan>
+    <tspan class="mg" dx="10">»</tspan> <tspan class="cy">linkedin</tspan> <tspan class="dim">: in/ryuoob</tspan>
+  </text>
 </g>
 
-<rect x="16" y="51" width="848" height="293" fill="url(#scan)"/>
-<path d="M16 16H864V344H16Z" fill="none" stroke="#35e8ff" stroke-width="3" opacity=".30" filter="url(#glow)"/>
-<path d="M16 16H864V344H16Z" fill="none" stroke="#35e8ff" stroke-width="1.2" stroke-opacity=".85"/>
+<!-- Final Prompt (Delayed until after echo result is fully printed) -->
+<g class="ln" style="animation-delay:5.6s">
+  <text x="52" y="344" class="cy">$</text>
+  <rect class="cursor" x="70" y="331" width="9" height="16" fill="#35e8ff"/>
+  <rect class="cursor" x="70" y="331" width="9" height="16" fill="#35e8ff" filter="url(#sglow)"/>
+</g>
+
+<!-- Scanlines & Frame -->
+<rect x="16" y="51" width="848" height="353" fill="url(#scan)"/>
+<path d="M16 16H864V404H16Z" fill="none" stroke="#35e8ff" stroke-width="3" opacity=".30" filter="url(#glow)"/>
+<path d="M16 16H864V404H16Z" fill="none" stroke="#35e8ff" stroke-width="1.2" stroke-opacity=".85"/>
 <g fill="none" stroke="#35e8ff" stroke-width="2.2" stroke-opacity=".9">
 <path d="M16 44V16H44"/><path d="M836 16H864V44"/>
-<path d="M16 316V344H44"/><path d="M836 344H864V316"/>
+<path d="M16 376V404H44"/><path d="M836 404H864V376"/>
 </g>
 </svg>
