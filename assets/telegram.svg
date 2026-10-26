@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="64" viewBox="0 0 240 64" role="img" aria-label="Telegram">
+  <rect x="1" y="1" width="238" height="62" rx="10" fill="#0a0819" stroke="#35e8ff" stroke-opacity=".55" stroke-width="1.5"/>
+  <g fill="none" stroke="#35e8ff" stroke-width="2" stroke-opacity=".9"><path d="M1 16V1H16"/><path d="M224 63H239V48"/></g>
+  <line x1="1" y1="63" x2="72" y2="63" stroke="#229ED9" stroke-width="2" stroke-opacity=".9"/>
+  <g transform="translate(18 18)">
+    <defs>
+      <linearGradient id="tgG" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#37AEE2"/>
+        <stop offset="1" stop-color="#1E96C8"/>
+      </linearGradient>
+    </defs>
+    <rect width="28" height="28" rx="6" fill="url(#tgG)"/>
+    <g transform="translate(2 2)">
+      <path fill="#ffffff" d="M23.91 3.79L20.3 20.84c-.25 1.21-.98 1.5-2 .94l-5.5-4.07-2.66 2.57c-.3.3-.55.54-1.12.54-.72 0-.6-.27-.84-.95L6.3 13.7l-5.45-1.7c-1.18-.35-1.19-1.16.26-1.75l21.31-8.21c.97-.43 1.9.24 1.49 1.75z"/>
+    </g>
+  </g>
+  <text x="62" y="39" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="700" letter-spacing="1.6" fill="#eaf6ff">TELEGRAM</text>
+  <circle cx="226" cy="12" r="3" fill="#229ED9"/>
+</svg>
