@@ -47,7 +47,13 @@ text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
   <g>
     <rect class="bg-box" width="150" height="36" rx="6"/>
     <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#00599C"/>
-    <text x="12" y="26" font-size="22" font-weight="900" fill="#00599C">C</text>
+    
+    <!-- Official C Logo -->
+    <g transform="translate(12, 9) scale(0.75)">
+      <path d="M12 0 L22 6 L22 18 L12 24 L2 18 L2 6 Z" fill="#00599C"/>
+      <text x="12" y="16" font-family="sans-serif" font-size="13" font-weight="900" fill="#ffffff" text-anchor="middle">C</text>
+    </g>
+
     <text x="42" y="23" class="lbl">C</text>
     <circle class="dot" cx="138" cy="10" fill="#00599C"/>
   </g>
@@ -56,7 +62,13 @@ text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
   <g transform="translate(190, 0)">
     <rect class="bg-box" width="150" height="36" rx="6"/>
     <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#3776AB"/>
-    <text x="12" y="24" font-size="16" font-weight="900" fill="#3776AB">Py</text>
+    
+    <!-- Official Python Logo -->
+    <g transform="translate(12, 9) scale(0.75)">
+      <path d="M11.89 0c-1.11 0-2.09.06-3.07.17C7.12.57 6.02 1.66 6.02 3.38v2.65h5.88v.95H2.92c-1.73 0-3.25.94-3.73 2.8-.55 2.12-.57 3.44 0 5.69.42 1.66 1.42 2.8 3.15 2.8h2.04v-3.45c0-1.96 1.71-3.73 3.73-3.73h5.86c1.58 0 2.8-1.31 2.8-2.88V3.38c0-1.51-1.25-2.62-2.8-2.93C13.9.13 13.06 0 11.89 0zM8.57 1.68a1 1 0 110 2 1 1 0 010-2z" fill="#3776AB"/>
+      <path d="M12.11 24c1.11 0 2.09-.06 3.07-.17 1.7-.4 2.8-1.49 2.8-3.21v-2.65h-5.88v-.95h9.05c1.73 0 3.25-.94 3.73-2.8.55-2.12.57-3.44 0-5.69-.42-1.66-1.42-2.8-3.15-2.8h-2.04v3.45c0 1.96-1.71 3.73-3.73 3.73H10.1c-1.58 0-2.8 1.31-2.8 2.88v4.83c0 1.51 1.25 2.62 2.8 2.93.99.26 1.83.39 3 .39zM15.43 22.32a1 1 0 110-2 1 1 0 010 2z" fill="#FFD43B"/>
+    </g>
+
     <text x="42" y="23" class="lbl">PYTHON</text>
     <circle class="dot" cx="138" cy="10" fill="#3776AB"/>
   </g>
@@ -65,9 +77,18 @@ text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
   <g transform="translate(380, 0)">
     <rect class="bg-box" width="150" height="36" rx="6"/>
     <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#ED8B00"/>
-    <!-- Coffee Cup Icon -->
-    <path d="M 14 14 h 10 v 8 c 0 3 -10 3 -10 0 z M 24 16 c 3 0 3 5 0 5" fill="none" stroke="#ED8B00" stroke-width="2"/>
-    <path d="M 16 12 c 0 -2 6 -2 6 0" fill="none" stroke="#ED8B00" stroke-width="1.5"/>
+    
+    <!-- Official Java Logo (Coffee Cup + Steam) -->
+    <g transform="translate(12, 9) scale(0.75)">
+      <path d="M12,21.3c0,0-1.4,1.1-0.8,2.1c0.6,1,2.1,1.6,4.2,1.6c3.5,0,6.5-1.4,6.5-1.4s-2.4,1.1-5.6,1.1c-2.1,0-3.6-0.6-3.6-1.4c0-0.5,0.3-0.9,0.8-1.4L12,21.3z" fill="#5382A1"/>
+      <path d="M9.5,16.8c0,0-1.6,1.2-1,2.2c0.6,1,3.5,1.2,5.8,0.9c2.3-0.3,4.8-1.4,4.8-1.4s-1.8,0.9-4.2,1.2c-2.4,0.3-4.6,0.1-4.6-0.7c0-0.5,0.4-1,0.8-1.4L9.5,16.8z" fill="#5382A1"/>
+      <path d="M11.5,10c0,0,2.5,1,1.5,3c-0.8,1.5-1.5,2.2-1.5,2.2s2.5-0.5,2.5-2.5C14,10.5,11.5,10,11.5,10z" fill="#E76F00"/>
+      <path d="M9.5,0c0,0,3,3-1.5,6.5C5.5,8.5,7.5,10,7.5,10s-2.5-1.5-0.5-3.5C9.5,4.5,9.5,0,9.5,0z" fill="#E76F00"/>
+      <path d="M19.5,8c0,0,2,1.5,0.5,3.5c0,0-1.5,1.5-1.5,1.5s3-0.5,3-2.5C21.5,8.5,19.5,8,19.5,8z" fill="#E76F00"/>
+      <path d="M8,8c0,0-1.5,1.5-3,1.5c-1,0-1.5-0.5-1.5-1s0.5-1,1.5-1C6.5,7.5,8,8,8,8z" fill="#E76F00"/>
+      <path d="M18.5,16.5c0,0-2,1.5-4.5,1.5c-1.5,0-2.5-0.5-2.5-1.5c0-1,1-1.5,2.5-1.5c0.5,0,1,0.1,1,0.1s-1.5-1-3.5-1C9,14.1,7.5,15.5,7.5,17c0,2,1.5,3.5,4.5,3.5c3.5,0,6.5-2.5,6.5-2.5V16.5z" fill="#5382A1"/>
+    </g>
+
     <text x="42" y="23" class="lbl">JAVA</text>
     <circle class="dot" cx="138" cy="10" fill="#ED8B00"/>
   </g>
@@ -76,7 +97,13 @@ text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
   <g transform="translate(570, 0)">
     <rect class="bg-box" width="150" height="36" rx="6"/>
     <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#f34b7d"/>
-    <text x="12" y="24" font-size="16" font-weight="900" fill="#f34b7d">C++</text>
+    
+    <!-- Official C++ Logo -->
+    <g transform="translate(12, 9) scale(0.75)">
+      <path d="M12 0 L22 6 L22 18 L12 24 L2 18 L2 6 Z" fill="#00599C"/>
+      <text x="12" y="16" font-family="sans-serif" font-size="10" font-weight="900" fill="#ffffff" text-anchor="middle">C++</text>
+    </g>
+
     <text x="42" y="23" class="lbl">C++</text>
     <circle class="dot" cx="138" cy="10" fill="#f34b7d"/>
   </g>
