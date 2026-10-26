@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-labelledby="t d">
-<title id="t">Anurag Singh Thakur — Tech Stack</title>
-<desc id="d">Core tech stack including C, Linux Kernel, Arch Linux, GCC, GDB, Bash, LLVM, and Neovim.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="150" viewBox="0 0 880 150" role="img" aria-labelledby="t d">
+<title id="t">Anurag Singh Thakur — Languages</title>
+<desc id="d">Core programming languages: C, Python, Java, and C++.</desc>
 <style>
 text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 .sys { fill: #35e8ff; font-size: 12px; letter-spacing: 1.2px; }
 .dim { fill: #7683a8; font-size: 11px; letter-spacing: 1.2px; }
-.lbl { fill: #eaf6ff; font-size: 13px; font-weight: 700; letter-spacing: 1.2px; }
+.lbl { fill: #eaf6ff; font-size: 14px; font-weight: 700; letter-spacing: 1.2px; }
 .bg-box { fill: #0a0819; stroke: #35e8ff; stroke-opacity: .55; stroke-width: 1.2; }
 .accent { stroke-width: 2; stroke-opacity: .9; stroke-linecap: square; }
 .dot { r: 2.5; }
@@ -29,105 +29,66 @@ text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 </defs>
 
 <!-- Ambient Background -->
-<rect x="16" y="16" width="848" height="208" fill="url(#bg)"/>
-<rect x="16" y="16" width="848" height="208" fill="url(#lattice)"/>
+<rect x="16" y="16" width="848" height="118" fill="url(#bg)"/>
+<rect x="16" y="16" width="848" height="118" fill="url(#lattice)"/>
 
 <!-- Header -->
 <rect x="16" y="16" width="848" height="34" fill="#35e8ff" fill-opacity=".06"/>
 <line x1="16" y1="50" x2="864" y2="50" stroke="#35e8ff" stroke-opacity=".38"/>
-<text x="32" y="38" class="sys">◈ TECH://STACK // CORE</text>
+<text x="32" y="38" class="sys">◈ TECH://LANGUAGES // CORE</text>
 <text x="844" y="38" class="dim" text-anchor="end">SYSTEMS NOMINAL</text>
 <circle cx="648" cy="34" r="3.5" fill="#35e8ff"/>
 <circle cx="648" cy="34" r="3.5" fill="#35e8ff" filter="url(#glow)"/>
 
-<!-- Row 1 -->
-<g transform="translate(116, 68)">
+<!-- Languages Row -->
+<g transform="translate(80, 64)">
+  
   <!-- C -->
   <g>
     <rect class="bg-box" width="150" height="36" rx="6"/>
     <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#00599C"/>
-    <text x="12" y="25" font-size="20" font-weight="900" fill="#00599C">C</text>
-    <text x="36" y="24" class="lbl">C</text>
+    <text x="12" y="26" font-size="22" font-weight="900" fill="#00599C">C</text>
+    <text x="42" y="23" class="lbl">C</text>
     <circle class="dot" cx="138" cy="10" fill="#00599C"/>
   </g>
 
-  <!-- KERNEL -->
-  <g transform="translate(166, 0)">
+  <!-- Python -->
+  <g transform="translate(190, 0)">
     <rect class="bg-box" width="150" height="36" rx="6"/>
-    <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#FCC624"/>
-    <text x="10" y="24" font-size="14" font-weight="700" fill="#FCC624">&gt;_</text>
-    <text x="36" y="24" class="lbl">KERNEL</text>
-    <circle class="dot" cx="138" cy="10" fill="#FCC624"/>
+    <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#3776AB"/>
+    <text x="12" y="24" font-size="16" font-weight="900" fill="#3776AB">Py</text>
+    <text x="42" y="23" class="lbl">PYTHON</text>
+    <circle class="dot" cx="138" cy="10" fill="#3776AB"/>
   </g>
 
-  <!-- ARCH -->
-  <g transform="translate(332, 0)">
+  <!-- Java -->
+  <g transform="translate(380, 0)">
     <rect class="bg-box" width="150" height="36" rx="6"/>
-    <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#1793D1"/>
-    <path d="M 12 25 L 18 12 L 24 25 Z" fill="none" stroke="#1793D1" stroke-width="2" stroke-linejoin="round"/>
-    <text x="36" y="24" class="lbl">ARCH</text>
-    <circle class="dot" cx="138" cy="10" fill="#1793D1"/>
+    <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#ED8B00"/>
+    <!-- Coffee Cup Icon -->
+    <path d="M 14 14 h 10 v 8 c 0 3 -10 3 -10 0 z M 24 16 c 3 0 3 5 0 5" fill="none" stroke="#ED8B00" stroke-width="2"/>
+    <path d="M 16 12 c 0 -2 6 -2 6 0" fill="none" stroke="#ED8B00" stroke-width="1.5"/>
+    <text x="42" y="23" class="lbl">JAVA</text>
+    <circle class="dot" cx="138" cy="10" fill="#ED8B00"/>
   </g>
 
-  <!-- GCC -->
-  <g transform="translate(498, 0)">
+  <!-- C++ -->
+  <g transform="translate(570, 0)">
     <rect class="bg-box" width="150" height="36" rx="6"/>
-    <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#8B0000"/>
-    <text x="10" y="24" font-size="16" font-weight="900" fill="#8B0000">&lt;&gt;</text>
-    <text x="36" y="24" class="lbl">GCC</text>
-    <circle class="dot" cx="138" cy="10" fill="#8B0000"/>
-  </g>
-</g>
-
-<!-- Row 2 -->
-<g transform="translate(116, 120)">
-  <!-- GDB -->
-  <g>
-    <rect class="bg-box" width="150" height="36" rx="6"/>
-    <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#FFB000"/>
-    <circle cx="18" cy="18" r="6" fill="none" stroke="#FFB000" stroke-width="2"/>
-    <line x1="14" y1="22" x2="22" y2="14" stroke="#FFB000" stroke-width="2"/>
-    <line x1="22" y1="22" x2="14" y2="14" stroke="#FFB000" stroke-width="2"/>
-    <text x="36" y="24" class="lbl">GDB</text>
-    <circle class="dot" cx="138" cy="10" fill="#FFB000"/>
+    <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#f34b7d"/>
+    <text x="12" y="24" font-size="16" font-weight="900" fill="#f34b7d">C++</text>
+    <text x="42" y="23" class="lbl">C++</text>
+    <circle class="dot" cx="138" cy="10" fill="#f34b7d"/>
   </g>
 
-  <!-- BASH -->
-  <g transform="translate(166, 0)">
-    <rect class="bg-box" width="150" height="36" rx="6"/>
-    <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#4EAA25"/>
-    <text x="10" y="24" font-size="14" font-weight="700" fill="#4EAA25">$_</text>
-    <text x="36" y="24" class="lbl">BASH</text>
-    <circle class="dot" cx="138" cy="10" fill="#4EAA25"/>
-  </g>
-
-  <!-- LLVM -->
-  <g transform="translate(332, 0)">
-    <rect class="bg-box" width="150" height="36" rx="6"/>
-    <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#a58bff"/>
-    <path d="M 12 25 L 18 12 L 24 25 Z" fill="#262D3A"/>
-    <path d="M 15 25 L 21 25 L 18 19 Z" fill="#a58bff"/>
-    <text x="36" y="24" class="lbl">LLVM</text>
-    <circle class="dot" cx="138" cy="10" fill="#a58bff"/>
-  </g>
-
-  <!-- NEOVIM -->
-  <g transform="translate(498, 0)">
-    <rect class="bg-box" width="150" height="36" rx="6"/>
-    <line class="accent" x1="0" y1="36" x2="45" y2="36" stroke="#57A143"/>
-    <path d="M 14 12 L 22 12 L 22 25 L 14 25 Z" fill="none" stroke="#57A143" stroke-width="2"/>
-    <path d="M 14 12 L 22 25" stroke="#57A143" stroke-width="2"/>
-    <text x="36" y="24" class="lbl">NEOVIM</text>
-    <circle class="dot" cx="138" cy="10" fill="#57A143"/>
-  </g>
 </g>
 
 <!-- Scanlines & Frame -->
-<rect x="16" y="51" width="848" height="173" fill="url(#scan)"/>
-<path d="M16 16H864V224H16Z" fill="none" stroke="#35e8ff" stroke-width="3" opacity=".30" filter="url(#glow)"/>
-<path d="M16 16H864V224H16Z" fill="none" stroke="#35e8ff" stroke-width="1.2" stroke-opacity=".85"/>
+<rect x="16" y="51" width="848" height="83" fill="url(#scan)"/>
+<path d="M16 16H864V134H16Z" fill="none" stroke="#35e8ff" stroke-width="3" opacity=".30" filter="url(#glow)"/>
+<path d="M16 16H864V134H16Z" fill="none" stroke="#35e8ff" stroke-width="1.2" stroke-opacity=".85"/>
 <g fill="none" stroke="#35e8ff" stroke-width="2.2" stroke-opacity=".9">
   <path d="M16 44V16H44"/><path d="M836 16H864V44"/>
-  <path d="M16 196V224H44"/><path d="M836 224H864V196"/>
+  <path d="M16 106V134H44"/><path d="M836 134H864V106"/>
 </g>
 </svg>
