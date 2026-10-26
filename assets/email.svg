@@ -1,18 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="64" viewBox="0 0 240 64" role="img" aria-label="Proton Mail">
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="64" viewBox="0 0 240 64" role="img" aria-label="Email">
   <rect x="1" y="1" width="238" height="62" rx="10" fill="#0a0819" stroke="#35e8ff" stroke-opacity=".55" stroke-width="1.5"/>
   <g fill="none" stroke="#35e8ff" stroke-width="2" stroke-opacity=".9"><path d="M1 16V1H16"/><path d="M224 63H239V48"/></g>
   <line x1="1" y1="63" x2="72" y2="63" stroke="#6D4AFF" stroke-width="2" stroke-opacity=".9"/>
   <g transform="translate(18 18)">
     <defs>
-      <linearGradient id="pmGrad" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#6D4AFF"/>
-        <stop offset="1" stop-color="#8B5CF6"/>
+      <linearGradient id="pmG" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#A594F9"/>
+        <stop offset="0.55" stop-color="#7B5CF6"/>
+        <stop offset="1" stop-color="#6D4AFF"/>
       </linearGradient>
+      <clipPath id="pmC"><rect width="28" height="28" rx="6"/></clipPath>
+      <mask id="pmM">
+        <rect width="28" height="28" fill="white"/>
+        <path d="M0 0 L14 14 L28 0 Z" fill="black"/>
+      </mask>
     </defs>
-    <rect width="28" height="28" rx="6" fill="url(#pmGrad)"/>
-    <rect x="6" y="8" width="16" height="12" rx="1.5" fill="#ffffff"/>
-    <path d="M6 8 L14 13 L22 8" fill="none" stroke="#6D4AFF" stroke-width="1.3" stroke-linejoin="round" stroke-opacity=".7"/>
+    <g clip-path="url(#pmC)" mask="url(#pmM)">
+      <rect width="28" height="28" fill="url(#pmG)"/>
+      <path d="M0 0 L14 14 L14 28 L0 28 Z" fill="#B8AAFF" opacity="0.55"/>
+      <rect x="21" y="0" width="7" height="28" fill="#5A3DE0" opacity="0.6"/>
+    </g>
   </g>
-  <text x="62" y="39" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="700" letter-spacing="1.4" fill="#eaf6ff">PROTON MAIL</text>
+  <text x="62" y="39" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="700" letter-spacing="1.6" fill="#eaf6ff">EMAIL</text>
   <circle cx="226" cy="12" r="3" fill="#6D4AFF"/>
 </svg>
