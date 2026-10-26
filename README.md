@@ -4,8 +4,8 @@
   
   <!-- 2. The Clickable Buttons (Flush against the bottom) -->
   <div style="display: flex; justify-content: center; align-items: flex-end; gap: 10px; margin-top: -1px;">
-    <a href="https://t.me/RyuOOB"><img src="./assets/telegram.svg" width="16%" align="top" alt="Telegram"></a>
     <a href="https://t.me/RyuOOB"><img src="./assets/discord.svg" width="16%" align="top" alt="Telegram"></a>
+    <a href="https://t.me/RyuOOB"><img src="./assets/telegram.svg" width="16%" align="top" alt="Telegram"></a>
     <a href="mailto:your@email.com"><img src="./assets/email.svg" width="16%" align="top" alt="Email"></a>
   </div>
 </div>
