@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="380" viewBox="0 0 880 380" role="img" aria-labelledby="t d">
 <title id="t">Anurag Singh Thakur — Neon Node</title>
-<desc id="d">Anurag Singh Thakur. A student interested in Linux kernel optimisations and patches. Every silence has a checksum. Socials printed via shell.</desc>
+<desc id="d">Anurag Singh Thakur. A student interested in Linux kernel optimisations and patches. Every silence has a checksum.</desc>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px}
 .pale{fill:#eaf6ff}.fg{fill:#c9d6ef}.dim{fill:#7683a8}.cy{fill:#35e8ff}.mg{fill:#ff3df0}.vi{fill:#a58bff}
@@ -18,76 +18,54 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 @keyframes type-reveal { from { width: 0; } to { width: 165px; } }
 @keyframes type-cursor { from { transform: translateX(0); } to { transform: translateX(165px); } }
 @keyframes fade-out { to { opacity: 0; } }
-
 .typing-reveal { animation: type-reveal 1.2s steps(17) forwards; }
 .typing-cursor { animation: type-cursor 1.2s steps(17) forwards, blink 1.05s step-end infinite, fade-out 0.3s 1.5s forwards; }
 
 /* Echo Typewriter Animations */
 @keyframes type-reveal-echo { from { width: 0; } to { width: 165px; } }
 @keyframes type-cursor-echo { from { transform: translateX(0); } to { transform: translateX(165px); } }
-
 .typing-reveal-echo { animation: type-reveal-echo 1.2s steps(18) 2.8s forwards; }
 .typing-cursor-echo { animation: type-cursor-echo 1.2s steps(18) 2.8s forwards, blink 1.05s step-end 2.8s infinite, fade-out 0.3s 4.0s forwards; }
 
-/* FAST glitch — two bursts per 1.6s cycle (~0.8s apart) */
+/* Fast glitch */
 @keyframes glitchCyan{
   0%,17%,34%,67%,84%,100%{transform:translate(-1px,0);opacity:.18}
-  21%{transform:translate(-5px,1px);opacity:.9}
-  27%{transform:translate(4px,-1px);opacity:.9}
-  31%{transform:translate(-2px,0);opacity:.5}
-  71%{transform:translate(-5px,1px);opacity:.9}
-  77%{transform:translate(4px,-1px);opacity:.9}
-  81%{transform:translate(-2px,0);opacity:.5}
+  21%{transform:translate(-5px,1px);opacity:.9} 27%{transform:translate(4px,-1px);opacity:.9}
+  31%{transform:translate(-2px,0);opacity:.5} 71%{transform:translate(-5px,1px);opacity:.9}
+  77%{transform:translate(4px,-1px);opacity:.9} 81%{transform:translate(-2px,0);opacity:.5}
 }
 @keyframes glitchMagenta{
   0%,17%,34%,67%,84%,100%{transform:translate(1px,0);opacity:.18}
-  21%{transform:translate(5px,-1px);opacity:.9}
-  27%{transform:translate(-4px,1px);opacity:.9}
-  31%{transform:translate(2px,0);opacity:.5}
-  71%{transform:translate(5px,-1px);opacity:.9}
-  77%{transform:translate(-4px,1px);opacity:.9}
-  81%{transform:translate(2px,0);opacity:.5}
+  21%{transform:translate(5px,-1px);opacity:.9} 27%{transform:translate(-4px,1px);opacity:.9}
+  31%{transform:translate(2px,0);opacity:.5} 71%{transform:translate(5px,-1px);opacity:.9}
+  77%{transform:translate(-4px,1px);opacity:.9} 81%{transform:translate(2px,0);opacity:.5}
 }
 @keyframes sliceA{
   0%,18%,34%,67%,84%,100%{transform:translateX(0);opacity:0}
-  22%{transform:translateX(-18px);opacity:1}
-  27%{transform:translateX(14px);opacity:1}
-  31%{transform:translateX(-6px);opacity:1}
-  72%{transform:translateX(-16px);opacity:1}
-  77%{transform:translateX(12px);opacity:1}
-  81%{transform:translateX(0);opacity:0}
+  22%{transform:translateX(-18px);opacity:1} 27%{transform:translateX(14px);opacity:1}
+  31%{transform:translateX(-6px);opacity:1} 72%{transform:translateX(-16px);opacity:1}
+  77%{transform:translateX(12px);opacity:1} 81%{transform:translateX(0);opacity:0}
 }
 @keyframes sliceB{
   0%,20%,37%,70%,86%,100%{transform:translateX(0);opacity:0}
-  24%{transform:translateX(16px);opacity:1}
-  29%{transform:translateX(-12px);opacity:1}
-  33%{transform:translateX(0);opacity:0}
-  74%{transform:translateX(14px);opacity:1}
-  79%{transform:translateX(-10px);opacity:1}
-  83%{transform:translateX(0);opacity:0}
+  24%{transform:translateX(16px);opacity:1} 29%{transform:translateX(-12px);opacity:1}
+  33%{transform:translateX(0);opacity:0} 74%{transform:translateX(14px);opacity:1}
+  79%{transform:translateX(-10px);opacity:1} 83%{transform:translateX(0);opacity:0}
 }
 @keyframes sliceC{
   0%,22%,40%,73%,88%,100%{transform:translateX(0);opacity:0}
-  26%{transform:translateX(-14px);opacity:1}
-  31%{transform:translateX(10px);opacity:1}
-  35%{transform:translateX(0);opacity:0}
-  76%{transform:translateX(-12px);opacity:1}
-  81%{transform:translateX(8px);opacity:1}
-  85%{transform:translateX(0);opacity:0}
+  26%{transform:translateX(-14px);opacity:1} 31%{transform:translateX(10px);opacity:1}
+  35%{transform:translateX(0);opacity:0} 76%{transform:translateX(-12px);opacity:1}
+  81%{transform:translateX(8px);opacity:1} 85%{transform:translateX(0);opacity:0}
 }
 @keyframes nameJitter{
   0%,17%,34%,67%,84%,100%{transform:translateX(0)}
-  21%{transform:translateX(-2px)}
-  27%{transform:translateX(2px)}
-  31%{transform:translateX(-1px)}
-  71%{transform:translateX(2px)}
-  77%{transform:translateX(-2px)}
-  81%{transform:translateX(1px)}
+  21%{transform:translateX(-2px)} 27%{transform:translateX(2px)} 31%{transform:translateX(-1px)}
+  71%{transform:translateX(2px)} 77%{transform:translateX(-2px)} 81%{transform:translateX(1px)}
 }
 @keyframes nameGlow{
   0%,17%,34%,67%,84%,100%{opacity:.35}
-  21%,27%,71%,77%{opacity:.75}
-  31%,81%{opacity:.5}
+  21%,27%,71%,77%{opacity:.75} 31%,81%{opacity:.5}
 }
 
 .ln{animation:fadein .45s ease-out both}
@@ -120,18 +98,14 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 <circle cx="22" cy="22" r="1" fill="#35e8ff" fill-opacity=".25"/>
 </pattern>
 <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" fill-opacity=".20"/></pattern>
-<clipPath id="card"><rect x="16" y="16" width="848" height="388"/></clipPath>
+<clipPath id="card"><rect x="16" y="16" width="848" height="348"/></clipPath>
 <clipPath id="gsA"><rect x="40" y="130" width="620" height="10"/></clipPath>
 <clipPath id="gsB"><rect x="40" y="140" width="620" height="7"/></clipPath>
 <clipPath id="gsC"><rect x="40" y="147" width="620" height="11"/></clipPath>
 
 <!-- Typewriter Clips -->
-<clipPath id="typeclip">
-  <rect class="typing-reveal" x="52" y="80" width="0" height="24"/>
-</clipPath>
-<clipPath id="typeclip-echo">
-  <rect class="typing-reveal-echo" x="52" y="268" width="0" height="24"/>
-</clipPath>
+<clipPath id="typeclip"><rect class="typing-reveal" x="52" y="80" width="0" height="24"/></clipPath>
+<clipPath id="typeclip-echo"><rect class="typing-reveal-echo" x="52" y="268" width="0" height="24"/></clipPath>
 
 <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
 <filter id="tglow" x="-8%" y="-45%" width="116%" height="190%"><feGaussianBlur stdDeviation="9"/></filter>
@@ -153,18 +127,18 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
 </g>
 </defs>
 
-<rect x="16" y="16" width="848" height="388" fill="url(#bg)"/>
-<rect x="16" y="16" width="848" height="388" fill="url(#lattice)"/>
+<rect x="16" y="16" width="848" height="348" fill="url(#bg)"/>
+<rect x="16" y="16" width="848" height="348" fill="url(#lattice)"/>
 
 <g clip-path="url(#card)">
-<circle class="p" style="animation-delay:-1s;animation-duration:10s" cx="120" cy="366" r="1.8" fill="#35e8ff"/>
-<circle class="p" style="animation-delay:-3.4s" cx="248" cy="386" r="1.4" fill="#a58bff"/>
-<circle class="p" style="animation-delay:-5.8s;animation-duration:12s" cx="382" cy="372" r="2" fill="#35e8ff"/>
-<circle class="p" style="animation-delay:-2.2s" cx="470" cy="394" r="1.3" fill="#ff3df0"/>
-<circle class="p" style="animation-delay:-7.1s;animation-duration:11s" cx="566" cy="376" r="1.7" fill="#a58bff"/>
-<circle class="p" style="animation-delay:-4.6s" cx="806" cy="384" r="1.5" fill="#35e8ff"/>
-<circle class="p" style="animation-delay:-6.3s;animation-duration:13s" cx="690" cy="368" r="1.9" fill="#ff3df0"/>
-<circle class="p" style="animation-delay:-0.5s" cx="60" cy="394" r="1.4" fill="#a58bff"/>
+<circle class="p" style="animation-delay:-1s;animation-duration:10s" cx="120" cy="326" r="1.8" fill="#35e8ff"/>
+<circle class="p" style="animation-delay:-3.4s" cx="248" cy="346" r="1.4" fill="#a58bff"/>
+<circle class="p" style="animation-delay:-5.8s;animation-duration:12s" cx="382" cy="332" r="2" fill="#35e8ff"/>
+<circle class="p" style="animation-delay:-2.2s" cx="470" cy="354" r="1.3" fill="#ff3df0"/>
+<circle class="p" style="animation-delay:-7.1s;animation-duration:11s" cx="566" cy="336" r="1.7" fill="#a58bff"/>
+<circle class="p" style="animation-delay:-4.6s" cx="806" cy="344" r="1.5" fill="#35e8ff"/>
+<circle class="p" style="animation-delay:-6.3s;animation-duration:13s" cx="690" cy="328" r="1.9" fill="#ff3df0"/>
+<circle class="p" style="animation-delay:-0.5s" cx="60" cy="354" r="1.4" fill="#a58bff"/>
 </g>
 
 <rect x="16" y="16" width="848" height="34" fill="#35e8ff" fill-opacity=".06"/>
@@ -220,47 +194,19 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:
   <rect class="typing-cursor-echo" x="52" y="270" width="8" height="15" fill="#35e8ff"/>
 </g>
 
-<!-- Socials Output: Discord Badge (Inlined and Clickable) -->
-<g class="ln" style="animation-delay:4.4s">
-  <a href="https://discord.com/users/YOUR_DISCORD_ID">
-    <g transform="translate(52, 292)">
-      <!-- Discord Background -->
-      <rect x="1" y="1" width="238" height="62" rx="10" fill="url(#bg)"/>
-      <rect x="1" y="1" width="238" height="62" rx="10" fill="url(#lattice)"/>
-      <rect x="1" y="1" width="238" height="62" rx="10" fill="none" stroke="#35e8ff" stroke-opacity=".55" stroke-width="1.5"/>
-      
-      <!-- Neon Frame & Accents -->
-      <g fill="none" stroke="#35e8ff" stroke-width="2" stroke-opacity=".9">
-        <path d="M1 16V1H16"/><path d="M224 63H239V48"/>
-      </g>
-      
-      <!-- Discord Logo -->
-      <g transform="translate(18 18) scale(1.1667)">
-        <path fill="#5865f2" d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.118.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
-      </g>
-
-      <!-- Discord Text -->
-      <text x="62" y="39" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="700" letter-spacing="1.6" fill="#eaf6ff">DISCORD</text>
-      
-      <!-- Status Dot -->
-      <circle cx="226" cy="12" r="3" fill="#8b6bff"/>
-    </g>
-  </a>
-</g>
-
-<!-- Final Prompt (Delayed until after echo result is fully printed) -->
-<g class="ln" style="animation-delay:5.6s">
-  <text x="52" y="365" class="cy">$</text>
-  <rect class="cursor" x="70" y="352" width="9" height="16" fill="#35e8ff"/>
-  <rect class="cursor" x="70" y="352" width="9" height="16" fill="#35e8ff" filter="url(#sglow)"/>
+<!-- Final Prompt (Appears right after echo finishes typing) -->
+<g class="ln" style="animation-delay:4.2s">
+  <text x="52" y="314" class="cy">$</text>
+  <rect class="cursor" x="70" y="301" width="9" height="16" fill="#35e8ff"/>
+  <rect class="cursor" x="70" y="301" width="9" height="16" fill="#35e8ff" filter="url(#sglow)"/>
 </g>
 
 <!-- Scanlines & Frame -->
-<rect x="16" y="51" width="848" height="353" fill="url(#scan)"/>
-<path d="M16 16H864V404H16Z" fill="none" stroke="#35e8ff" stroke-width="3" opacity=".30" filter="url(#glow)"/>
-<path d="M16 16H864V404H16Z" fill="none" stroke="#35e8ff" stroke-width="1.2" stroke-opacity=".85"/>
+<rect x="16" y="51" width="848" height="313" fill="url(#scan)"/>
+<path d="M16 16H864V364H16Z" fill="none" stroke="#35e8ff" stroke-width="3" opacity=".30" filter="url(#glow)"/>
+<path d="M16 16H864V364H16Z" fill="none" stroke="#35e8ff" stroke-width="1.2" stroke-opacity=".85"/>
 <g fill="none" stroke="#35e8ff" stroke-width="2.2" stroke-opacity=".9">
 <path d="M16 44V16H44"/><path d="M836 16H864V44"/>
-<path d="M16 376V404H44"/><path d="M836 404H864V376"/>
+<path d="M16 336V364H44"/><path d="M836 364H864V336"/>
 </g>
 </svg>
